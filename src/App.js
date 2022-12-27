@@ -14,6 +14,7 @@ function App() {
       <Router>
       <Navbar/>
       <Routes>
+    <Route exact path="/TaskMangement_react"  element={<Home/>}/>
         <Route exact path="/"  element={<Home/>}/>
         <Route exact path="/adduser"  element={<AddTask/>}/>
         <Route exact path="/view/:id"  element={<ViewTask/>}/>
