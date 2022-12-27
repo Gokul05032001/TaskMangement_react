@@ -33,7 +33,7 @@ const {id} = useParams()
     <tr>
       <th scope="col"></th>
       
-      <th scope="col">Tasks</th>
+      <th scope="col">Completed Tasks</th>
       
       <th scope="col"></th>
       
